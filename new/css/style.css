@@ -1,0 +1,135 @@
+body,
+footer,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navigation bar */
+.navigation {
+  background-color: #434343;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0; /* Remove right margin for the last list item */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+h1,
+h2,
+h3 {
+  margin-left: 2rem;
+}
+
+.mainParagraph {
+  margin: 1rem;
+  text-indent: 2rem;
+}
+
+.services li {
+  list-style: none;
+  line-break: strict;
+  margin-bottom: 1rem;
+}
+
+.whyChoose li {
+  margin-top: 1rem;
+}
+
+.nice-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.nice-button:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  text-align: center;
+}
+
+.center-container {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  padding: 0;
+}
+
+/* for the contact section (footer) */
+/* Style the footer */
+footer {
+  background-color: #e3e2e2;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the contact section */
+.contact-section {
+  max-width: 600px;
+  margin: 0 auto; /* Center the contact section within the footer */
+}
+
+.contact-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-section li {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: #000;
+}
+.contacts a:hover {
+  text-decoration: none;
+  color: #535353;
+}
+
+.address {
+  padding-bottom: 1rem;
+}
+
+/* Add additional styles as needed */
